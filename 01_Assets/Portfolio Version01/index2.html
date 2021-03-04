@@ -1,0 +1,1321 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="assests/css/normalize.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Salsa&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Vidaloka&display=swap" rel="stylesheet">
+    <link href="assests/fonts/css/all.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Sofia&family=Vidaloka&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond&family=Sofia&family=Vidaloka&display=swap"
+          rel="stylesheet">
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        header {
+            height: 570px;
+            background: #596164;
+            position: relative;
+        }
+
+        header > div {
+            height: 550px;
+            background: linear-gradient(180.51deg, #2D3436 7.98%, rgba(45, 52, 54, 0) 20.98%, rgba(45, 52, 54, 0.653376) 45.56%, rgba(45, 52, 54, 0.9375) 65.6%);
+            z-index: 1;
+            position: absolute;
+            top: 10px;
+            left: 14px;
+            margin: auto;
+            right: 11px;
+            bottom: 10px;
+            width: 95%;
+        }
+
+        header > div > div:nth-child(1) {
+            height: 38px;
+            background: #00B894;
+            margin-top: 35px;
+        }
+
+        header > div > hr:nth-child(2) {
+            box-sizing: content-box;
+            height: 1px;
+            overflow: visible;
+            background: #00B894;
+            width: 432px;
+            border-block-color: #00B894;
+            top: 0;
+            left: 0;
+            margin: auto;
+            position: absolute;
+            margin-top: 12px;
+        }
+
+        header > div > hr:nth-child(3) {
+            box-sizing: content-box;
+            height: 1px;
+            overflow: visible;
+            background: white;
+            width: 432px;
+            border-block-color: #00B894;
+            top: 0;
+            right: 0;
+            margin: auto;
+            position: absolute;
+            margin-top: 12px;
+        }
+
+        header > div > h2:nth-child(4) {
+            color: rgba(255, 118, 117, 1);
+            font-family: 'Satisfy', cursive;
+            font-size: 24px;
+            font-weight: 400;
+            line-height: 35px;
+            letter-spacing: 0em;
+            text-align: center;
+            margin-top: -70px;
+            margin-left: -86px;
+        }
+
+        header > div > h2:nth-child(5) {
+            color: rgba(0, 165, 114, 1);
+            font-family: 'Satisfy', cursive;
+            font-size: 24px;
+            font-weight: 400;
+            line-height: 35px;
+            letter-spacing: 0em;
+            text-align: center;
+            margin-top: -35px;
+            margin-left: 90px;
+        }
+
+        header > div > div:nth-child(6) {
+            width: 0;
+            height: 0;
+            border-top: 479px solid rgba(3, 78, 55, 0.44);
+            border-left: 667px solid transparent;
+            top: 0;
+            right: 0;
+            margin: auto;
+            position: absolute;
+            margin-top: 72px;
+
+        }
+
+        header > div:nth-child(1) > div > ul {
+            list-style: none;
+            position: absolute;
+            top: 32px;
+            right: 263px;
+            font-family: 'Vidaloka', serif;
+        }
+
+        a:link {
+            color: white;
+            /*-webkit-text-stroke: 1px #00563f;*/
+            text-shadow: -1px 0 #00563f, 0 1px #00563f, 1px 0 #00563f, 0 -1px #00563f;
+            text-decoration: none;
+        }
+
+        a:hover {
+            color: #00563f;
+        }
+
+        header > div:nth-child(1) > div > ul > li {
+            color: black;
+            font-size: 21px;
+            display: inline-block;
+            padding: 7px;
+            padding-top: 11px;
+
+        }
+
+        header > div > div:nth-child(7) {
+            height: 249px;
+            width: 173px;
+            /*background: rgb(36 189 161 / 20%);*/
+            background: rgba(36, 189, 161, 0.2);
+            position: absolute;
+            top: 185px;
+            right: 318px;
+
+        }
+
+        header > div > div:nth-child(8) {
+            height: 257px;
+            width: 218px;
+            /*background: rgb(26 146 102 / 45%);*/
+            background: rgba(26, 146, 102, 0.45);
+            position: absolute;
+            top: 142px;
+            right: 248px;
+            background-image: url(assests/img/img1.png);
+            box-shadow: 5px 10px 5px #80808070;
+            background-repeat: no-repeat;
+            background-blend-mode: darken;
+            background-position: bottom;
+            background-size: 148px;
+
+        }
+
+        @keyframes wiggle {
+            0% {
+                transform: rotate(0deg);
+            }
+            80% {
+                transform: rotate(0deg);
+            }
+            85% {
+                transform: rotate(5deg);
+            }
+            95% {
+                transform: rotate(-5deg);
+            }
+            100% {
+                transform: rotate(0deg);
+            }
+        }
+
+        header > div > h1:nth-child(9) {
+            font-size: 47px;
+            position: absolute;
+            top: 149px;
+            left: 186px;
+            color: rgba(255, 118, 117, 1);
+            font-family: 'Satisfy', cursive;
+            line-height: 64px;
+            font-weight: 100;
+            animation-name: wiggle;
+            animation-iteration-count: infinite;
+            animation-duration: 2s;
+
+        }
+
+        header > div > h2:nth-child(10) {
+            font-size: 35px;
+            position: absolute;
+            margin-top: 207px;
+            margin-left: 185px;
+            text-align: center;
+            font-family: 'Satisfy', cursive;
+            color: white;
+        }
+
+        header > div > h2:nth-child(11) {
+            color: rgba(255, 118, 117, 1);
+            padding: 7px 36px;
+            background: rgba(45, 52, 54, 1);
+            margin-top: 313px;
+            margin-left: 173px;
+            display: inline-block;
+            border-radius: 80px;
+            font-family: 'Vidaloka', serif;
+            font-weight: 100;
+            font-size: 20px;
+            border: 2px solid rgba(255, 118, 117, 1)
+        }
+
+        header > div > h2:nth-child(12) {
+            color: rgba(255, 118, 117, 1);
+            padding: 7px 23px;
+            background: rgba(45, 52, 54, 1);
+            display: inline-block;
+            border-radius: 80px;
+            font-family: 'Vidaloka', serif;
+            font-weight: 100;
+            font-size: 20px;
+            border: 2px solid rgba(255, 118, 117, 1)
+        }
+
+        .selected:hover {
+            /*outline: 2px solid rgba(255, 118, 117, 1);*/
+            /*-moz-outline-radius: 80%;*/
+            border: 2px solid rgba(0, 184, 148, 1);
+        }
+
+        header > div > h2:nth-child(13) {
+            font-size: 35px;
+            position: absolute;
+            /* margin-top: 207px; */
+            /* margin-left: 282px; */
+            text-align: center;
+            font-family: 'Satisfy', cursive;
+            color: rgba(0, 184, 148, 1);
+            top: 244px;
+            right: 782px;
+            margin: auto;
+        }
+
+        header > div > div:nth-child(14) {
+            width: 47px;
+            height: 47px;
+            margin: auto;
+            position: absolute;
+            top: 132px;
+            right: 16px;
+            /* background: red; */
+            border-radius: 100%;
+            background: linear-gradient(45deg, rgba(0, 147, 120, 0.59), rgba(255, 118, 117, 0.74));
+            box-shadow: 5px 10px 5px #02100e3b;
+            /*transition: all 1s ease-in-out;*/
+            /*-webkit-transition: all 1s ease-in-out;*/
+            /*-moz-transition: all 1s ease-in-out;*/
+            /*-o-transition: all 1s ease-in-out;*/
+            /*-ms-transition: all 1s ease-in-out;*/
+        }
+
+
+        header > div > div:nth-child(14) > i {
+            color: #4C4C4C;
+            font-size: 20px;
+            /* border-radius: 100%; */
+            background-repeat: no-repeat;
+            background-position: center;
+            margin-top: 14px;
+            margin-left: 17px;
+        }
+
+        .icon:hover {
+            background: rgba(0, 184, 148, 1);
+            /*transform: translate(3em,0);*/
+            /*-webkit-transform: translate(3em,0);*/
+            /*-moz-transform: translate(3em,0);*/
+            /*-o-transform: translate(3em,0);*/
+            /*-ms-transform: translate(3em,0);*/
+        }
+
+        header > div > div:nth-child(15) {
+            width: 47px;
+            height: 47px;
+            margin: auto;
+            position: absolute;
+            top: 195px;
+            right: 16px;
+            /* background: red; */
+            border-radius: 100%;
+            background: linear-gradient(45deg, rgba(0, 147, 120, 0.59), rgba(255, 118, 117, 0.74));
+            box-shadow: 5px 10px 5px #02100e3b;
+        }
+
+        header > div > div:nth-child(15) > i {
+            color: #4C4C4C;
+            font-size: 20px;
+            /* border-radius: 100%; */
+            background-repeat: no-repeat;
+            background-position: center;
+            margin-top: 14px;
+            margin-left: 15px;
+        }
+
+        header > div > div:nth-child(16) {
+            width: 47px;
+            height: 47px;
+            margin: auto;
+            position: absolute;
+            top: 257px;
+            right: 16px;
+            /* background: red; */
+            border-radius: 100%;
+            background: linear-gradient(45deg, rgba(0, 147, 120, 0.59), rgba(255, 118, 117, 0.74));
+            box-shadow: 5px 10px 5px #02100e3b;
+        }
+
+        header > div > div:nth-child(16) > i {
+            color: #4C4C4C;
+            font-size: 20px;
+            /* border-radius: 100%; */
+            background-repeat: no-repeat;
+            background-position: center;
+            margin-top: 14px;
+            margin-left: 15px;
+        }
+
+        header > div > div:nth-child(17) {
+            width: 47px;
+            height: 47px;
+            margin: auto;
+            position: absolute;
+            top: 321px;
+            right: 16px;
+            /* background: red; */
+            border-radius: 100%;
+            background: linear-gradient(45deg, rgba(0, 147, 120, 0.59), rgba(255, 118, 117, 0.74));
+            box-shadow: 5px 10px 5px #02100e3b;
+        }
+
+        header > div > div:nth-child(17) > i {
+            color: #4C4C4C;
+            font-size: 20px;
+            /* border-radius: 100%; */
+            background-repeat: no-repeat;
+            background-position: center;
+            margin-top: 14px;
+            margin-left: 13px;
+        }
+
+        header > div > div:nth-child(18) {
+            width: 47px;
+            height: 47px;
+            margin: auto;
+            position: absolute;
+            top: 381px;
+            right: 16px;
+            /* background: red; */
+            border-radius: 100%;
+            background: linear-gradient(45deg, rgba(0, 147, 120, 0.59), rgba(255, 118, 117, 0.74));
+            box-shadow: 5px 10px 5px #02100e3b;
+        }
+
+        header > div > div:nth-child(18) > i {
+            color: #4C4C4C;
+            font-size: 20px;
+            /* border-radius: 100%; */
+            background-repeat: no-repeat;
+            background-position: center;
+            margin-top: 13px;
+            margin-left: 14px;
+        }
+
+        /*---------------------------------------------------------------------------------------*/
+
+
+        body > section:nth-child(2) {
+            height: 500px;
+            background: #474B4F;
+            position: relative;
+        }
+
+
+        section:nth-child(2) > div:nth-child(1) {
+            height: 35px;
+            position: absolute;
+            top: 0;
+            margin: auto;
+            width: 25%;
+            box-shadow: 5px 10px 5px #02100e3b;
+            right: 103px;
+            background: linear-gradient(207deg, rgba(255, 118, 117, 1), rgba(0, 147, 120, 1));
+            border-radius: 25px;
+        }
+
+        section:nth-child(2) > div:nth-child(1) > h2:nth-child(1) {
+            position: absolute;
+            top: 4px;
+            color: #2d3436;
+            right: 114px;
+            margin: auto;
+            /* font-family: 'EB Garamond', serif; */
+            font-family: 'Vidaloka', serif;
+            font-weight: 100;
+            font-size: 26px;
+        }
+
+        /*section:nth-child(2) > div:nth-child(1) > hr:nth-child(2) {*/
+        /*    box-sizing: content-box;*/
+        /*    height: 2px;*/
+        /*    overflow: visible;*/
+        /*    background: white;*/
+        /*    width: 95%;*/
+        /*    top: 0;*/
+        /*    right: 6px;*/
+        /*    margin: auto;*/
+        /*    position: absolute;*/
+        /*    border-radius: 247px;*/
+        /*}*/
+
+        section:nth-child(2) > div:nth-child(2) {
+            width: 260px;
+            position: absolute;
+            background: grey;
+            margin: auto;
+            top: 105px;
+            right: 838px;
+            /* border-radius: 100%; */
+            border: 10px solid rgba(172, 225, 175, 0.5);
+            height: 260px;
+            background-image: url(assests/img/img3.png);
+            background-repeat: no-repeat;
+            background-size: 419px;
+            background-position: right;
+            background-blend-mode: multiply;
+            transform: rotate(-13deg);
+            filter: grayscale(100%);
+        }
+
+        section:nth-child(2) > h2:nth-child(3) {
+            position: absolute;
+            top: 67px;
+            right: 827px;
+            margin: auto;
+            color: rgba(0, 147, 120, 1);
+            font-family: 'Sofia', cursive;
+            /*font-family: 'Vidaloka', serif;*/
+        }
+
+        section:nth-child(2) > div:nth-child(4) {
+            position: absolute;
+            top: 61px;
+            right: 39px;
+            margin: auto;
+            height: 173px;
+            width: 711px;
+            font-size: 12px;
+        }
+
+        section:nth-child(2) > div:nth-child(4) > h1:nth-child(1) {
+            color: rgba(0, 147, 120, 1);
+            text-align: left;
+        }
+
+        section:nth-child(2) > div:nth-child(4) > h2:nth-child(2) {
+            color: rgba(255, 118, 117, 0.74);
+            text-align: left;
+        }
+
+        section:nth-child(2) > div:nth-child(4) > h2:nth-child(3) {
+            color: darkgrey;
+            padding-top: 10px;
+            padding-left: 130px;
+        }
+
+        section:nth-child(2) > div:nth-child(4) > h2:nth-child(4) {
+            color: darkgrey;
+            padding-top: 34px;
+            padding-left: 130px;
+        }
+
+        section:nth-child(2) > div:nth-child(5) {
+            position: absolute;
+            margin: auto;
+            top: 279px;
+            right: 427px;
+            height: 200px;
+        }
+
+        section:nth-child(2) > div:nth-child(5) > ul {
+            list-style: none;
+            color: rgba(0, 147, 120, 1);
+            font-size: 20px;
+        }
+
+        section:nth-child(2) > div:nth-child(5) > ul > li {
+            padding: 9px;
+        }
+
+        section:nth-child(2) > div:nth-child(6) {
+            position: absolute;
+            margin: auto;
+            top: 279px;
+            right: 190px;
+            height: 200px;
+        }
+
+        section:nth-child(2) > div:nth-child(6) > ul {
+            list-style: none;
+            color: darkgray;
+            font-size: 20px;
+        }
+
+        section:nth-child(2) > div:nth-child(6) > ul > li {
+            padding: 9px;
+        }
+
+        /*-----------------------------------------------------------------------------------------*/
+        body > section:nth-child(3) {
+            height: 445px;
+            background: #474B4F;
+            position: relative;
+
+        }
+
+        section:nth-child(3) > div:nth-child(1) {
+            height: 35px;
+            position: absolute;
+            top: 0;
+            margin: auto;
+            width: 32%;
+            box-shadow: 5px 10px 5px #02100e3b;
+            /* right: 204px; */
+            background: linear-gradient(207deg, rgb(9 119 85), rgba(255, 118, 117, 1));
+            right: 865px;
+            border-radius: 25px;
+        }
+
+        section:nth-child(3) > div:nth-child(1) > h2:nth-child(1) {
+            position: absolute;
+            top: 0;
+            color: #2d3436;
+            right: 187px;
+            font-family: 'Vidaloka', serif;
+            font-weight: 100;
+            font-size: 26px;
+            margin-top: 6px;
+        }
+
+        /*section:nth-child(3) > div:nth-child(1) > hr:nth-child(2) {*/
+        /*    box-sizing: content-box;*/
+        /*    height: 2px;*/
+        /*    overflow: visible;*/
+        /*    background: white;*/
+        /*    width: 95%;*/
+        /*    top: 0;*/
+        /*    right: 10px;*/
+        /*    margin: auto;*/
+        /*    position: absolute;*/
+        /*    border-radius: 230px;*/
+        /*}*/
+
+        section:nth-child(3) > div:nth-child(2) {
+            background: #474B4F;
+            height: 381px;
+            position: absolute;
+            right: 0;
+            width: 93%;
+            bottom: 0;
+            left: 0;
+            margin: auto;
+            top: 24px;
+        }
+
+        section:nth-child(3) > div:nth-child(2) > ul {
+            list-style: none;
+            /* margin: 44px; */
+            /* margin-left: 185px; */
+            color: white;
+            position: absolute;
+            top: 0;
+            right: 466px;
+            margin: auto;
+            line-height: 4;
+            margin-top: 3px;
+        }
+
+        .bar {
+            background: white;
+            display: block;
+            height: 5px;
+            border: #00B894;
+            border-radius: 3px;
+            overflow: hidden;
+            box-shadow: 0 0 7px crimson;
+            width: 545px;
+            /* padding-top: 2px; */
+            margin-top: -22px;
+        }
+
+        .bar span {
+            height: 5px;
+            float: left;
+            background: #00B894;
+        }
+
+        .html {
+            width: 90%;
+            animation: html 2s;
+            animation-iteration-count: infinite;
+        }
+
+        @keyframes html {
+            0% {
+                width: 0%;
+            }
+            100% {
+                width: 90%;
+            }
+        }
+
+        .css {
+            width: 60%;
+            animation: css 2s;
+            animation-iteration-count: infinite;
+        }
+
+        @keyframes css {
+            0% {
+                width: 0%;
+            }
+            100% {
+                width: 60%;
+            }
+        }
+
+        .js {
+            width: 75%;
+            animation: js 2s;
+            animation-iteration-count: infinite;
+        }
+
+        @keyframes js {
+            0% {
+                width: 0%;
+            }
+            100% {
+                width: 75%;
+            }
+        }
+
+        .fx {
+            width: 50%;
+            animation: fx 2s;
+            animation-iteration-count: infinite;
+        }
+
+        @keyframes fx {
+            0% {
+                width: 0%;
+            }
+            100% {
+                width: 50%;
+            }
+        }
+
+        .sql {
+            width: 60%;
+            animation: sql 2s;
+            animation-iteration-count: infinite;
+        }
+
+        @keyframes sql {
+            0% {
+                width: 0%;
+            }
+            100% {
+                width: 60%;
+            }
+        }
+
+        .php {
+            width: 40%;
+            animation: php 2s;
+            animation-iteration-count: infinite;
+        }
+
+        @keyframes php {
+            0% {
+                width: 0%;
+            }
+            100% {
+                width: 40%;
+            }
+        }
+
+        /*section:nth-child(3) > div:nth-child(2) > div:nth-child(1) {*/
+        /*    position: absolute;*/
+        /*    height: 180px;*/
+        /*    margin: auto;*/
+        /*    top: 39px;*/
+        /*    right: 966px;*/
+        /*    border-radius: 100%;*/
+        /*    background: #00B894;*/
+        /*    width: 180px;*/
+        /*}*/
+
+        /*section:nth-child(3) > div:nth-child(2) > div:nth-child(2) {*/
+        /*    position: absolute;*/
+        /*    height: 160px;*/
+        /*    margin: auto;*/
+        /*    top: 39px;*/
+        /*    right: 686px;*/
+        /*    border-radius: 100%;*/
+        /*    background: gray;*/
+        /*    width: 160px;*/
+        /*    border: 10px solid #00B894;*/
+        /*}*/
+
+        /*section:nth-child(3) > div:nth-child(2) > div:nth-child(3) {*/
+        /*    position: absolute;*/
+        /*    height: 180px;*/
+        /*    margin: auto;*/
+        /*    top: 39px;*/
+        /*    right: 413px;*/
+        /*    border-radius: 100%;*/
+        /*    background: #00B894;*/
+        /*    width: 180px;*/
+        /*}*/
+
+        /*section:nth-child(3) > div:nth-child(2) > div:nth-child(4) {*/
+        /*    position: absolute;*/
+        /*    height: 160px;*/
+        /*    margin: auto;*/
+        /*    top: 39px;*/
+        /*    right: 156px;*/
+        /*    border-radius: 100%;*/
+        /*    background: gray;*/
+        /*    width: 160px;*/
+        /*    border: 10px solid #00B894;*/
+        /*}*/
+
+        /*section:nth-child(3) > div:nth-child(2) > div:nth-child(5) {*/
+        /*    position: absolute;*/
+        /*    height: 180px;*/
+        /*    margin: auto;*/
+        /*    top: 252px;*/
+        /*    right: 822px;*/
+        /*    border-radius: 100%;*/
+        /*    background: #00B894;*/
+        /*    width: 180px;*/
+        /*}*/
+
+        /*section:nth-child(3) > div:nth-child(2) > div:nth-child(6) {*/
+        /*    position: absolute;*/
+        /*    height: 160px;*/
+        /*    margin: auto;*/
+        /*    top: 252px;*/
+        /*    right: 548px;*/
+        /*    border-radius: 100%;*/
+        /*    background: gray;*/
+        /*    width: 160px;*/
+        /*    border: 10px solid #00B894;*/
+        /*}*/
+
+        /*section:nth-child(3) > div:nth-child(2) > div:nth-child(7) {*/
+        /*    position: absolute;*/
+        /*    height: 180px;*/
+        /*    margin: auto;*/
+        /*    top: 252px;*/
+        /*    right: 282px;*/
+        /*    border-radius: 100%;*/
+        /*    background: #00B894;*/
+        /*    width: 180px;*/
+        /*}*/
+
+        /*------------------------------------------------------------------------------------------------*/
+        body > section:nth-child(4) {
+            height: 580px;
+            background: linear-gradient(rgb(0 133 93) 0%, rgba(136, 136, 136, 1) 14%);
+            position: relative;
+
+        }
+
+        section:nth-child(4) > div:nth-child(1) {
+            height: 35px;
+            position: absolute;
+            top: 0;
+            margin: auto;
+            width: 28%;
+            box-shadow: 5px 10px 5px #02100e3b;
+            right: 139px;
+            background: linear-gradient(207deg, rgba(0, 165, 114, 1), rgba(255, 118, 117, 1));
+            border-radius: 25px;
+        }
+
+        section:nth-child(4) > div:nth-child(1) > h2 {
+            position: absolute;
+            top: 0;
+            color: #2d3436;
+            right: 120px;
+            font-family: 'Vidaloka', serif;
+            font-weight: 100;
+            font-size: 26px;
+            margin-top: 3px;
+        }
+
+        /*--------------------------------------------------------------------------------------------*/
+        body > section:nth-child(5) {
+            height: 580px;
+            background: darkgrey;
+            position: relative;
+        }
+
+        section:nth-child(5) > div:nth-child(1) {
+            height: 35px;
+            position: absolute;
+            top: 0;
+            margin: auto;
+            width: 32%;
+            box-shadow: 5px 10px 5px #02100e3b;
+            /* right: 204px; */
+            background: linear-gradient(
+                    207deg
+                    , rgb(9 119 85), rgba(255, 118, 117, 1));
+            right: 865px;
+            border-radius: 25px;
+        }
+
+        section:nth-child(5) > div:nth-child(1) > h2:nth-child(1) {
+            position: absolute;
+            top: 0;
+            color: #2d3436;
+            right: 187px;
+            font-family: 'Vidaloka', serif;
+            font-weight: 100;
+            font-size: 26px;
+            margin-top: 6px;
+        }
+
+
+
+        section:nth-child(5) > div:nth-child(2) {
+            width: 400px;
+            height: 400px;
+            position: absolute;
+            margin: auto;
+            top: 36px;
+            right: 139px;
+            background-image: url(assests/img/img4.png);
+            background-repeat: no-repeat;
+        }
+
+        /*-------------------------------------------------------------------------------------------*/
+        body > section:nth-child(6) {
+            height: 580px;
+            background: grey;
+            position: relative;
+        }
+
+        section:nth-child(6) > div:nth-child(1) {
+            height: 35px;
+            position: absolute;
+            top: 0;
+            margin: auto;
+            width: 25%;
+            box-shadow: 5px 10px 5px #02100e3b;
+            right: 103px;
+            background: linear-gradient(
+                    207deg
+                    , rgba(255, 118, 117, 1), rgba(0, 147, 120, 1));
+            border-radius: 25px;
+        }
+
+        section:nth-child(6) > div:nth-child(1) > h2:nth-child(1) {
+            position: absolute;
+            top: 4px;
+            color: #2d3436;
+            right: 114px;
+            margin: auto;
+            /* font-family: 'EB Garamond', serif; */
+            font-family: 'Vidaloka', serif;
+            font-weight: 100;
+            font-size: 26px;
+        }
+
+
+
+        section:nth-child(6) > div:nth-child(2) {
+            width: 446px;
+            height: 440px;
+            margin: auto;
+            position: absolute;
+            top: 90px;
+            right: 854px;
+            background-image: url(assests/img/img5.png);
+            background-position: center;
+            filter: drop-shadow(82px -45px 4px rgba(0, 0, 0, 0.25));
+        }
+
+        section:nth-child(6) > div:nth-child(3) {
+            width: 678px;
+            height: 38px;
+            margin: auto;
+            position: absolute;
+            top: 422px;
+            right: 248px;
+            background: rgba(104, 195, 160, 1);
+        }
+
+        section:nth-child(6) > div:nth-child(4) {
+            width: 678px;
+            height: 38px;
+            margin: auto;
+            position: absolute;
+            top: 384px;
+            right: 184px;
+            background: rgba(179, 227, 214, 1);
+        }
+
+        section:nth-child(6) > div:nth-child(5) {
+            width: 678px;
+            height: 38px;
+            margin: auto;
+            position: absolute;
+            top: 346px;
+            right: 121px;
+            background: rgba(104, 195, 160, 1);
+        }
+
+        section:nth-child(6) > div:nth-child(6) {
+            width: 678px;
+            height: 38px;
+            margin: auto;
+            position: absolute;
+            top: 308px;
+            right: 67px;
+            background: rgba(179, 227, 214, 1);
+        }
+
+        section:nth-child(6) > div:nth-child(7) {
+            width: 678px;
+            height: 38px;
+            margin: auto;
+            position: absolute;
+            top: 270px;
+            right: 15px;
+            background: rgba(104, 195, 160, 1);
+        }
+
+        /*------------------------------------------------------------------------------------------------*/
+        body > section:nth-child(7) {
+            height: 434px;
+            background: rgba(45, 52, 54, 1);
+            position: relative;
+        }
+
+        section:nth-child(7) > div:nth-child(1) {
+            height: 35px;
+            position: absolute;
+            top: 0;
+            margin: auto;
+            width: 32%;
+            box-shadow: 5px 10px 5px #02100e3b;
+            /* right: 204px; */
+            background: linear-gradient(
+                    207deg
+                    , rgb(9 119 85), rgba(255, 118, 117, 1));
+            right: 865px;
+            border-radius: 25px;
+        }
+
+        section:nth-child(7) > div:nth-child(1) > h2:nth-child(1) {
+            position: absolute;
+            top: 0;
+            color: #2d3436;
+            right: 155px;
+            font-family: 'Vidaloka', serif;
+            font-weight: 100;
+            font-size: 26px;
+            margin-top: 1px;
+        }
+
+
+
+        section:nth-child(7) > div:nth-child(2) {
+            width: 514px;
+            height: 232px;
+            position: absolute;
+            margin: auto;
+            top: 123px;
+            right: 728px;
+            background: rgba(0, 147, 120, 1);
+        }
+
+        section:nth-child(7) > div:nth-child(3) {
+            width: 514px;
+            height: 232px;
+            position: absolute;
+            margin: auto;
+            top: 123px;
+            right: 107px;
+            background: rgba(0, 147, 120, 1);
+        }
+
+        /*------------------------------------------------------------------------------------*/
+        body > section:nth-child(8) {
+            height: 580px;
+            background: #596164;
+            position: relative;
+        }
+
+        section:nth-child(8) > div:nth-child(1) {
+            height: 35px;
+            position: absolute;
+            top: 0;
+            margin: auto;
+            width: 25%;
+            box-shadow: 5px 10px 5px #02100e3b;
+            right: 103px;
+            background: linear-gradient(
+                    207deg, rgba(255, 118, 117, 1), rgba(0, 147, 120, 1));
+            border-radius: 25px;
+        }
+
+        section:nth-child(8) > div:nth-child(1) > h2:nth-child(1) {
+            position: absolute;
+            top: 4px;
+            color: #2d3436;
+            right: 114px;
+            margin: auto;
+            /* font-family: 'EB Garamond', serif; */
+            font-family: 'Vidaloka', serif;
+            font-weight: 100;
+            font-size: 26px;
+        }
+        section:nth-child(8)>div:nth-child(2){
+            display: inline-block;
+            /* position: relative; */
+            /* width: 100%; */
+            padding-bottom: 100%;
+            vertical-align: middle;
+            overflow: hidden;
+        }
+        section:nth-child(8)>div:nth-child(2)>svg{
+            display: inline-block;
+            position: absolute;
+            bottom: 0;
+            right: 0;
+        }
+        section:nth-child(8)>div:nth-child(3){
+            width: 300px;
+            height: 300px;
+            position: absolute;
+            margin: auto;
+            top: 142px;
+            right: 157px;
+            background-image: url(assests/img/img6.png);
+            background-repeat: no-repeat;
+            background-size: 299px;
+        }
+        section:nth-child(8)>div:nth-child(4){
+            width: 373px;
+            height: 397px;
+            position: absolute;
+            margin: auto;
+            top: 111px;
+            right: 804px;
+            /* border: 2px solid red; */
+            /*background: rgba(45, 52, 54, 1);*/
+        }
+        section:nth-child(8)>div:nth-child(4)>h3:nth-child(1){
+            color: white;
+            position: absolute;
+            margin: auto;
+            top: 45px;
+            left: 23px;
+        }
+        section:nth-child(8)>div:nth-child(4)>h3:nth-child(2){
+            color: white;
+            position: absolute;
+            margin: auto;
+            top: 140px;
+            left: 23px;
+        }
+        section:nth-child(8)>div:nth-child(4)>h3:nth-child(3){
+            color: white;
+            position: absolute;
+            margin: auto;
+            top: 235px;
+            left: 23px;
+        }
+        section:nth-child(8)>div:nth-child(4)>div:nth-child(4){
+            width: 365px;
+            height: 41px;
+            position: absolute;
+            margin: auto;
+            top: 69px;
+            right: 0;
+            background: black;
+
+        }
+        section:nth-child(8)>div:nth-child(4)>div:nth-child(5){
+            width: 365px;
+            height: 41px;
+            position: absolute;
+            margin: auto;
+            top: 165px;
+            right: 0;
+            background: black;
+
+        }
+        section:nth-child(8)>div:nth-child(4)>div:nth-child(6){
+            width: 365px;
+            height: 97px;
+            position: absolute;
+            margin: auto;
+            top: 262px;
+            right: 0;
+            background: black;
+
+        }
+
+        /*-------------------------------------------------------------------*/
+        body > footer {
+            height: 43px;
+            background: rgba(0, 147, 120, 1);
+            position: relative;
+        }
+    </style>
+</head>
+<body>
+<header>
+    <div>
+        <div>
+            <ul>
+                <li><a href="a">Home</a></li>
+                <li><a href="a">About</a></li>
+                <li><a href="a">Skills</a></li>
+                <li><a href="a">Assignments</a></li>
+                <li><a href="a">Projects</a></li>
+                <li><a href="a">Education</a></li>
+                <li><a href="a">Experience</a></li>
+                <li><a href="a">Contacts</a></li>
+            </ul>
+        </div>
+        <hr>
+        <hr>
+        <h2>Thilini</h2>
+        <h2>Nimesha</h2>
+        <div></div>
+        <div></div>
+        <div></div>
+        <h1>Hello</h1>
+        <h2>I am </h2>
+        <h2 class="selected">Contact me</h2>
+        <h2 class="selected">Download CV</h2>
+        <h2>a Web Developer</h2>
+        <div class="icon">
+            <i class="fab fa-facebook-f"></i>
+        </div>
+        <div class="icon">
+            <i class="fab fa-linkedin-in"></i>
+        </div>
+        <div class="icon">
+            <i class="fab fa-twitter"></i>
+        </div>
+        <div class="icon">
+            <i class="fas fa-envelope"></i>
+        </div>
+        <div class="icon">
+            <i class="fab fa-github"></i>
+        </div>
+
+
+    </div>
+
+</header>
+<section>
+    <div>
+        <h2>About me</h2>
+        <!--        <hr>-->
+    </div>
+    <div></div>
+    <h2>Who I am</h2>
+    <div>
+        <h1>Welcome to my mini portfolio website !</h1>
+        <h2>Hello...! I’m Nimesha.</h2>
+        <h2>I’m a student of IJSE (Institute of Java and Software Engineering) and I’m following
+            GDSE(Graduate Diploma in Software Engineering).</h2>
+        <h2>a Web Developer specialized in HTML, CSS and JavaScripts</h2>
+    </div>
+    <div>
+        <ul>
+            <li>Name</li>
+            <li>Profile</li>
+            <li>Residence</li>
+            <li>Email</li>
+            <li>Phone</li>
+        </ul>
+    </div>
+    <div>
+        <ul>
+            <li>:Thilini Nimesha</li>
+            <li>:Web Developer</li>
+            <li>:Sri Lanka</li>
+            <li>:ipt.nimesha@gmail.com</li>
+            <li>:+94 760 315 911</li>
+        </ul>
+    </div>
+
+</section>
+<section>
+    <div>
+        <h2>Skills</h2>
+        <!--        <hr>-->
+    </div>
+    <div>
+        <!--        <div></div>-->
+        <!--        <div></div>-->
+        <!--        <div></div>-->
+        <!--        <div></div>-->
+        <!--        <div></div>-->
+        <!--        <div></div>-->
+        <!--        <div></div>-->
+        <ul>
+            <li><h3>HTML</h3><span class="bar"><span class="html"></span> </span></li>
+            <li><h3>CSS</h3><span class="bar"><span class="css"></span> </span></li>
+            <li><h3>JavaScript</h3><span class="bar"><span class="js"></span> </span></li>
+            <li><h3>JavaFX</h3><span class="bar"><span class="fx"></span> </span></li>
+            <li><h3>MySQL</h3><span class="bar"><span class="sql"></span> </span></li>
+            <li><h3>PHP</h3><span class="bar"><span class="php"></span> </span></li>
+        </ul>
+
+
+    </div>
+</section>
+<section>
+    <div>
+        <h2>Assignments</h2>
+    </div>
+</section>
+<section>
+    <div>
+        <h2>Projects</h2>
+    </div>
+    <div>
+
+    </div>
+</section>
+<section>
+    <div>
+        <h2>Education</h2>
+
+    </div>
+    <div>
+
+    </div>
+    <div>
+        <h2>Ordinary Level-Wadduwa Balika Vidyalaya</h2>
+    </div>
+    <div>
+        <h2>Advanced Level-Panadura Balika Maha Vidyalaya</h2>
+    </div>
+    <div>
+        <h2>VTA-NVQ Level4 ICT</h2>
+    </div>
+    <div>
+        <h2>UCSC-BIT-DIP</h2>
+    </div>
+    <div>
+        <h2>IJSE</h2>
+    </div>
+</section>
+<section>
+    <div>
+        <h2>Experience</h2>
+<!--        <hr>-->
+    </div>
+    <div></div>
+    <div></div>
+</section>
+<section>
+    <div>
+        <h2>Contact me</h2>
+    </div>
+    <div>
+        <svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;">
+            <path d="M-3.10,-3.45 C149.99,150.00 297.68,4.45 500.84,97.20 L500.00,150.00 L0.00,150.00 Z"
+                  style="stroke: none; fill: rgba(45, 52, 54, 1);"></path>
+        </svg>
+    </div>
+    <div></div>
+    <div>
+        <h3>Name</h3>
+        <h3>E-mail</h3>
+        <h3>Message</h3>
+        <div></div>
+        <div></div>
+        <div></div>
+
+    </div>
+</section>
+<footer></footer>
+</body>
+</html>
